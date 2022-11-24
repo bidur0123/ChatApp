@@ -1,0 +1,39 @@
+name: chat_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.0.0
+  emoji_picker_flutter: ^1.5.0
+  camera: ^0.10.0+4
+  camera_web: ^0.3.0+1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/images/
+
+  fonts:
+    - family: Open Sans
+      fonts:
+        - asset: fonts/OpenSans-Regular.ttf
+        - asset: fonts/OpenSans-Italic.ttf
+        - asset: fonts/OpenSans-Bold.ttf
+
+
+
